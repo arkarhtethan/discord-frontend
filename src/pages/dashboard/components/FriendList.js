@@ -9,7 +9,7 @@ const MainContainer = styled("div")({
 const DUMMY_FRIENDS = [
   { id: 1, username: "Mark", isOnline: true },
   { id: 2, username: "Anna", isOnline: false },
-  { id: 2, username: "JOhn", isOnline: false },
+  { id: 3, username: "JOhn", isOnline: false },
 ];
 
 const FriendList = () => {
