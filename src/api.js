@@ -11,6 +11,7 @@ apiClient.interceptors.request.use((config) => {
     const token = JSON.parse(userDetails).token;
     config.headers.Authorization = `Bearer ${token}`;
   }
+  return config;
 });
 apiClient.interceptors.response.use(
   (config) => {
