@@ -1,5 +1,6 @@
 import React from "react";
 import { styled } from "@mui/system";
+import DropdownMenu from "./DropdownMenu";
 
 const Wrapper = styled("div")({
   position: "absolute",
@@ -16,7 +17,11 @@ const Wrapper = styled("div")({
 });
 
 const AppBar = () => {
-  return <Wrapper>AppBar</Wrapper>;
+  return (
+    <Wrapper>
+      <DropdownMenu />
+    </Wrapper>
+  );
 };
 
 export default AppBar;
