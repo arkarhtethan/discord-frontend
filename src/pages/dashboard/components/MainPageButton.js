@@ -12,7 +12,7 @@ const MainPageButton = () => {
         padding: 0,
         minWidth: "10px",
         color: "white",
-        backgrondColor: "#5865F2",
+        backgroundColor: "#5865F2",
       }}
     >
       <Group />
